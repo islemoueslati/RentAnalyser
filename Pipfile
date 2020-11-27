@@ -6,6 +6,12 @@ name = "pypi"
 [packages]
 numpy = "*"
 pylatex = "*"
+matplotlib = "*"
+requests = "*"
+google-i18n-address = "*"
+googlemaps = "*"
+google-streetview = "*"
+datetime = "*"
 
 [dev-packages]
 
