@@ -2,9 +2,11 @@
 Ivestment report generator 
 @uthors : Oueslati Islem(islemoueslati), Ltifi Azer(azseza)
 '''
-import pylatex
+from pylatex import Document, Section, Subsection, Tabular, Math, TikZ, Axis, \
+    Plot, Figure, Matrix, Alignat
+from pylatex.utils import italic
 import os 
-import numpy
+import numpy as np
 import matplotlib as mlt
 import matplotlib.pyplot as plt
 import re
@@ -62,6 +64,4 @@ def getting_imgz(adress : dict):
     
 
 
-#formulas 
-
-
+#formulas

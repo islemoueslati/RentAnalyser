@@ -12,6 +12,7 @@ google-i18n-address = "*"
 googlemaps = "*"
 google-streetview = "*"
 datetime = "*"
+pdflatex = "*"
 
 [dev-packages]
 
